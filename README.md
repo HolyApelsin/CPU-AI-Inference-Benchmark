@@ -1,13 +1,15 @@
 # CPU-AI-Inference-Benchmark (WIP)
 Mini training / learning project: CPU AI Inference Benchmark
 
-## Goal
-Comparison of inference performance MobileNetV2 on **CPU** in three environments: **PyTorch**, **ONNX RunTime**, **OpenCV DNN**.
+## About
+Comparison of MobileNetV2 model inference performance on **CPU** in different environments: **PyTorch**, **ONNX RunTime** and other (maybe). Application of INT8 quantization.
+
+## Results
+(soon)
 
 ## Roadmap
-1. Update files in the repository.
-2. Run the code and get the results.
-3. Update *README*.
+1. Write results.
+2. Improve the project in terms of code and comments.
 
 ## Tools
 - VS Code (WSL)
