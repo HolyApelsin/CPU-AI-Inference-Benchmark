@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-python -m venv .venv
+set -euo pipefail
+python3 -m venv .venv
 source .venv/bin/activate
-pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install -r requirements.txt
-echo "Env ready. TODO: run export and bench scripts."
+echo "[OK] venv ready and packages installed."
